@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: #CCD0D5;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 40px auto;
+}
+
+h2 {
+    margin: 40px 100px;
+}
+
+p {
+    margin: 20px;
+}
+
+form {
+    /* display: flex; */
+    flex-direction: column;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+input {
+    margin: 12px auto;
+    width: 39%;
+    padding: 15px 58px;
+    border: navajowhite;
+    /* display: flex; */
+    border-radius: 5px;
+    background: #00BCD4;
+}
+
+input[type="email"] {
+    width: 89%;
+    padding: 18px;
+    background: transparent;
+    border: 1px solid #111;
+    outline: none;
+}
+
+input[type="password"] {
+    width: 89%;
+    padding: 18px;
+    background: transparent;
+    border: 1px solid #111;
+    outline: none;
+}

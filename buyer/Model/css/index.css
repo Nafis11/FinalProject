@@ -1,0 +1,88 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+div#container {
+    width: 1120px;
+    margin: 20px auto;
+}
+
+body {align-items: center;display: flex;min-height: 200px;background: #CCD3D8;align-content: center;justify-content: center;font-family: sans-serif;}
+
+.webtitle {width: 100%;margin: auto;text-align: center;margin: 30px auto;}
+
+.webtitle h2 {
+    font-size: 42px;
+    color: #7C40BA;
+}
+
+.logform {
+    width: 100%;
+    overflow: hidden;
+}
+
+input.inputbox {
+    width: 100%;
+    margin: 5px auto;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.log {
+    width: 500px;
+    margin: auto;
+}
+
+.span {
+	position: relative;
+	top: -36px;
+	left: 425px;
+	color: red;
+    font-size: 13px;
+    text-align: left;
+	visibility:hidden;
+}
+
+
+input.loginbtn {
+    margin: 20px auto;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #7C40BA;
+    color: #FFF;
+    font-size: 18px;
+    /* align-items: center; */
+    text-align: center;
+	width:100%;
+	cursor: pointer;
+}
+
+.span1 {
+    position: relative;
+	top: -36px;
+	left: 425px;
+	color: red;
+    font-size: 13px;
+    text-align: left;
+	visibility:hidden;
+}
+
+.other {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    color: #596056;
+    overflow: hidden;
+}
+
+.other a {
+    text-decoration: none;
+    padding: 10px;
+    /* margin-top: 20px; */
+	color: #7C40BA;
+}
